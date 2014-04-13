@@ -187,6 +187,10 @@ public class CardAdapter<ItemType extends CardBase<ItemType>> extends SilkAdapte
      */
     public final CardAdapter<ItemType> registerLayout(int layoutRes) {
         if (layoutRes == mLayout || layoutRes == mLayoutNoContent || layoutRes == mLayoutHeader) return this;
+        if(mViewTypes.get(layoutRes, 0) != 0) {
+            String name = getContext().getResources().getResourceName(layoutRes);
+            throw new RuntimeException("The layout " + name + " is already registered!");
+        }
         mViewTypes.put(layoutRes, mViewTypes.size() + DEFAULT_TYPE_COUNT);
         return this;
     }
