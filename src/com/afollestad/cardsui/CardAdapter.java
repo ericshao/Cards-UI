@@ -36,7 +36,7 @@ public class CardAdapter<ItemType extends CardBase<ItemType>> extends SilkAdapte
     /**
      * Initializes a new CardAdapter instance.
      *
-     * @param context The context used to inflate layouts and retrieve resources.
+     * @param context        The context used to inflate layouts and retrieve resources.
      * @param accentColorRes The color used for header actions and card titles, 0 will specify black.
      */
     public CardAdapter(Context context, int accentColorRes) {
@@ -187,7 +187,7 @@ public class CardAdapter<ItemType extends CardBase<ItemType>> extends SilkAdapte
      */
     public final CardAdapter<ItemType> registerLayout(int layoutRes) {
         if (layoutRes == mLayout || layoutRes == mLayoutNoContent || layoutRes == mLayoutHeader) return this;
-        if(mViewTypes.get(layoutRes, 0) != 0) {
+        if (mViewTypes.get(layoutRes, 0) != 0) {
             String name = getContext().getResources().getResourceName(layoutRes);
             throw new RuntimeException("The layout " + name + " is already registered!");
         }
