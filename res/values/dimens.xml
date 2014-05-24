@@ -3,6 +3,7 @@
 
     <dimen name="card_thumbnail">56dp</dimen>
     <dimen name="card_thumbnail_margin">5dp</dimen>
+    <dimen name="card_thumbnail_margin_top">3dp</dimen>
     <dimen name="card_title_margin_left">5dp</dimen>
     <dimen name="card_title">16sp</dimen>
     <dimen name="card_content">15sp</dimen>
