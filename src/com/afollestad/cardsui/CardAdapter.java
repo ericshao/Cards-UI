@@ -26,11 +26,11 @@ public class CardAdapter<ItemType extends CardBase<ItemType>> extends SilkAdapte
 
     private final static int POPUP_MENU_THEME = android.R.style.Theme_Holo_Light;
     private final SparseIntArray mViewTypes;
-    protected int mAccentColor;
+    protected final int mAccentColor;
     private int mPopupMenu = -1;
     private Card.CardMenuListener<ItemType> mPopupListener;
-    private int mLayout = R.layout.list_item_card;
-    private int mLayoutNoContent = R.layout.list_item_card_nocontent;
+    private final int mLayout = R.layout.list_item_card;
+    private final int mLayoutNoContent = R.layout.list_item_card_nocontent;
     private final int mLayoutHeader = R.layout.list_item_header;
 
     /**
