@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--suppress AndroidLintUselessParent -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/card_outer">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/card_outer_frame">
 
-    <RelativeLayout android:id="@+id/inner_frame" style="@style/card_inner">
+    <LinearLayout style="@style/card_inner_frame">
 
         <!--suppress AndroidLintContentDescription -->
         <ImageView android:id="@android:id/icon" style="@style/card_thumbnail"/>
@@ -18,9 +18,6 @@
 
         <com.afollestad.silk.views.text.SilkTextView android:id="@android:id/content" style="@style/card_content"/>
 
-    </RelativeLayout>
-
-    <!--suppress AndroidLintContentDescription -->
-    <ImageView style="@style/card_shadow"/>
+    </LinearLayout>
 
 </LinearLayout>

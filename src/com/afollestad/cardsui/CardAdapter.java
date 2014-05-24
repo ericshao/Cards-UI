@@ -129,15 +129,6 @@ public class CardAdapter<ItemType extends CardBase<ItemType>> extends SilkAdapte
         } else button.setVisibility(View.GONE);
     }
 
-    private void invalidatePadding(int index, View view) {
-        int top = index == 0 ? R.dimen.card_outer_padding_firstlast : R.dimen.card_outer_padding_top;
-        int bottom = index == (getCount() - 1) ? R.dimen.card_outer_padding_firstlast : R.dimen.card_outer_padding_bottom;
-        view.setPadding(view.getPaddingLeft(),
-                getContext().getResources().getDimensionPixelSize(top),
-                view.getPaddingRight(),
-                getContext().getResources().getDimensionPixelSize(bottom));
-    }
-
     @Override
     public View onViewCreated(int index, View recycled, ItemType item) {
         if (item.isHeader()) {
@@ -166,7 +157,6 @@ public class CardAdapter<ItemType extends CardBase<ItemType>> extends SilkAdapte
                 menu.setVisibility(View.INVISIBLE);
             }
         }
-        invalidatePadding(index, recycled);
         return recycled;
     }
 

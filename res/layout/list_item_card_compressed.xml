@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--suppress AndroidLintUselessParent -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/card_outer">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             style="@style/card_outer_frame">
 
-    <RelativeLayout android:id="@+id/inner_frame" style="@style/card_inner_compressed">
+    <RelativeLayout style="@style/card_inner_frame_taller">
 
         <TextView android:id="@android:id/title" style="@style/card_title"/>
 
@@ -12,8 +12,5 @@
                                                      android:maxLines="1"/>
 
     </RelativeLayout>
-
-    <!--suppress AndroidLintContentDescription -->
-    <ImageView style="@style/card_shadow"/>
 
 </LinearLayout>
