@@ -68,8 +68,8 @@ public class MessageCardAdapter extends CardAdapter<Card> {
         if (!(card instanceof MessageCard)) return false;
         MessageCard messageCard = (MessageCard)card;
         TextView sender = (TextView) view.findViewById(R.id.message_sender);
-        if (sender != null)
-            sender.setText(messageCard.getLastMessage().getSender());
+        //if (sender != null)
+            //sender.setText(messageCard.getLastMessage().getSender());
         return true;
     }
 
