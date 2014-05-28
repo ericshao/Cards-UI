@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="card_thumbnail">56dp</dimen>
+    <dimen name="card_thumbnail">48dp</dimen>
     <dimen name="card_thumbnail_margin">5dp</dimen>
     <dimen name="card_thumbnail_margin_top">3dp</dimen>
     <dimen name="card_title_margin_left">5dp</dimen>
-    <dimen name="card_title">16sp</dimen>
+    <dimen name="card_title">18sp</dimen>
+    <dimen name="card_timestamp">14sp</dimen>
     <dimen name="card_content">15sp</dimen>
 
     <dimen name="card_margin_horizontal">6dp</dimen>

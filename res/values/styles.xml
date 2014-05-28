@@ -47,6 +47,14 @@
         <item name="android:singleLine">true</item>
         <item name="android:layout_centerVertical">true</item>
     </style>
+    <style name="card_timestamp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/card_timestamp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
     <style name="card_content">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>

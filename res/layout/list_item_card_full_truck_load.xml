@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/card_outer_frame">
+
+    <LinearLayout style="@style/card_inner_frame">
+
+        <!--suppress AndroidLintContentDescription -->
+        <ImageView android:id="@android:id/icon" style="@style/card_thumbnail"/>
+
+        <RelativeLayout android:id="@+id/titleFrame" style="@style/card_title_frame">
+
+            <TextView android:id="@android:id/title" style="@style/card_title"/>
+            <TextView android:id="@+id/load_weight" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

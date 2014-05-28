@@ -5,5 +5,5 @@
     <color name="card_pressed_header">#d6d6d6</color>
     <color name="header_button_default">#494949</color>
     <color name="card_gray">#e5e5e5</color>
-
+    <color name="divider_line">#E4E4E4</color>
 </resources>

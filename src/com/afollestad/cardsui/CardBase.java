@@ -1,7 +1,7 @@
 package com.afollestad.cardsui;
 
 import android.graphics.drawable.Drawable;
-import com.afollestad.silk.caching.SilkComparable;
+import com.afollestad.silk.adapters.SilkComparable;
 
 /**
  * @author Aidan Follestad (afollestad)

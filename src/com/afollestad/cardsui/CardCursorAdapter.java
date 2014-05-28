@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 import com.afollestad.silk.adapters.SilkCursorAdapter;
-import com.afollestad.silk.caching.SilkCursorItem;
+import com.afollestad.silk.adapters.SilkCursorItem;
 
 /**
  * @author Aidan Follestad (afollestad)
